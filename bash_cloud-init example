@@ -1,0 +1,4 @@
+#!/bin/sh
+#CloudInit supports shell scripts
+#demo @ https://goo.gl/niAx3O
+echo -e "new_password\nnew_password" | (passwd --stdin root)
